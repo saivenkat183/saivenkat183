@@ -18,74 +18,26 @@
 
 <br/>
 
-<!-- Professional Terminal Showcase -->
+<!-- Animated Code Terminal -->
+
 ```bash
-sai@enterprise:~$ whoami && cat profile.json | jq '.summary'
+┌─[sai@enterprise-systems]─[~/full-stack-architect]
+└──╼ $ whoami
+Full Stack Java Developer • Cloud Architect • Microservices Expert | Texas Tech MCS
 
-╔═══════════════════════════════════════════════════════════════════════╗
-║  SAI VENKATA REDDY VANGA | Full Stack Architect | North Carolina     ║
-║  4+ YOE | Java Expert | React Developer | AWS Cloud Engineer         ║
-╚═══════════════════════════════════════════════════════════════════════╝
+┌─[sai@enterprise-systems]─[~/achievements]
+└──╼ $ ls -la
+total 4
+drwxr-xr-x  5 microservices deployed handling 12,000+ weekly users
+drwxr-xr-x  50,000+ accounts processed in Q1 2024
+drwxr-xr-x  35% latency reduction achieved across systems
+-rw-r--r--  99.9% uptime maintained in production
+-rw-r--r--  25+ REST APIs built and deployed
+-rw-r--r--  92% test coverage with automated pipelines
 
-"Transforming enterprise architectures with 35% performance gains and 99.9% uptime.
- Currently architecting microservices handling 12,000+ weekly users @ Unum."
-
-sai@enterprise:~$ git log --oneline --graph | head -5
-
-* e3f4a21 (HEAD -> production) feat: Deployed 5 microservices with Kafka [12K users/week]
-* 9c7b5d2 perf: Reduced latency by 35% through optimization [Claims Processing]
-* 4d2c6b3 scale: Processed 50,000+ accounts in Q1 2024 [Digital Banking]
-* 8b3d7c9 refactor: Angular → React migration [50% fewer UI issues]
-* 1e4f2a8 ci/cd: Automated deployments 30min → 7min [GitHub Actions + K8s]
-
-sai@enterprise:~$ curl -s http://api.metrics/impact | python -m json.tool
-
-{
-    "performance": {
-        "latency_reduction": "35%",
-        "page_load": "4.8s → 2.8s",
-        "deployment_speed": "77% faster",
-        "uptime": "99.9%"
-    },
-    "scale": {
-        "weekly_users": 12000,
-        "accounts_processed": 50000,
-        "transactions": 15000,
-        "production_apis": 25
-    },
-    "quality": {
-        "test_coverage": "92%",
-        "security_breaches": "-70%",
-        "defect_reduction": "35%"
-    },
-    "business_value": "$2.5M+ delivered"
-}
-
-sai@enterprise:~$ docker stats --no-stream
-
-CONTAINER           CPU     MEM       STATUS
-microservice-1      0.15%   256MiB    ✓ Processing 10K req/min
-microservice-2      0.22%   384MiB    ✓ 35% faster than v1
-microservice-3      0.18%   192MiB    ✓ 0 payment failures
-microservice-4      0.31%   512MiB    ✓ 99.9% uptime
-microservice-5      0.25%   256MiB    ✓ Real-time events
-
-sai@enterprise:~$ skills --analyze --format=compact
-
-┌─ TECHNICAL PROFICIENCY SCANNER v4.0 ─────────────────────────────────┐
-│                                                                       │
-│ BACKEND:   Java ████████████ Spring Boot ████████████ Kafka ████████ │
-│ FRONTEND:  React ███████████ Redux ██████████ TypeScript ███████░░░  │
-│ CLOUD:     AWS █████████░░░ Azure ████████░░ Docker ████████████    │
-│ DATABASE:  PostgreSQL ███████████ MongoDB █████████ Redis ██████████ │
-│ TESTING:   JUnit ████████████ Mockito ███████████ Selenium █████████ │
-│                                                                       │
-│ > Overall: SENIOR ARCHITECT LEVEL | 91% Proficiency                  │
-└───────────────────────────────────────────────────────────────────────┘
-
-sai@enterprise:~$ echo $NEXT_OBJECTIVE
-
-🚀 READY: Building enterprise-grade solutions that scale beyond limits
+┌─[sai@enterprise-systems]─[~/current-mission]
+└──╼ $ cat vision.txt
+Building enterprise-grade solutions that scale beyond limits 🚀
 ```
 
 <br/>
